@@ -1,8 +1,7 @@
 # How to Code a Servo
 # Or Shake a Foam Tombstone
 
-![alt text](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/Servo%20%2B%20Tombstone/main_animation.gif "For more info: www.brilliantlabs.ca")
-
+![alt text](https://media.giphy.com/media/icJ13X7EH26szQrH2L/giphy.gif "For more info: www.brilliantlabs.ca")
 Servos are a great way to add motion to your project. They are similiar to a motor that turns a wheel, however they can stop at very precise positions while they turn.
 
 You may have learned in math that a wheel is like a circle and
@@ -34,7 +33,7 @@ There are two values you require:
  2. The angle at which you wish your servo to stop. 
 
 **1.** You can identify the first value by looking at the b.Board and identifying the pin number. For this example I am going to use ``||pins:P2||`` to connect the servo. 
-![Test](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/Servo%20%2B%20Tombstone/servo_pin_number.jpeg?raw=true_)
+![Servo Pins](https://github.com/Brilliant-Labs/bboard-tuts/raw/master/Servo%20%2B%20Tombstone/servo_pin_number.jpeg?raw=true_)
 
 **2.** For the angle, it is best that you start with 180 degrees so that you can see how farthest point possible for your servo to turn. 
 
@@ -49,7 +48,7 @@ pins.servoWritePin(AnalogPin.P2, 180)
 
 Hook up your servo, ``||download:download||`` and try your code! The b.Board has some symbols to help you to identify the location for each wire. Most micro servos, will have a brown, red and orange wire. Remember the rhyme **brown and ground** to easily orient your servo hookup. 
 
-![Servo Hookup Wire](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/Servo%20%2B%20Tombstone/servo_hookup.jpg?raw=true)
+![Servo](https://github.com/Brilliant-Labs/bboard-tuts/raw/master/Servo%20%2B%20Tombstone/servo_hookup.jpg?raw=true)
 
 ### Some Tips
 
@@ -69,7 +68,7 @@ basic.pause(1000)
 pins.servoWritePin(AnalogPin.P2, 180)
 })
 ```
-![ServoTurn 1 Second Delay](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/Servo%20%2B%20Tombstone/servo_turn.gif)
+![ServoTurn 1 Second Delay](https://media.giphy.com/media/mEz5fAgNXxFVj75ZyH/giphy.gif)
 
 # STEP 5
 Have some fun and attach what ever needs turning to your servo horn. Maybe you want your servo to be extra jittery. Consider using the ``||logic:random||`` blocks for the timing and rotation. 

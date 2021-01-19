@@ -1,10 +1,8 @@
-## ISS notifications with b.Board and WiFi_BLE Click
-
 # Track the ISS with your b.Board and a WiFi_BLE clickboard!
 
-![alt text](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/Neopixel+Button_G/cover.gif?raw=true "For more info: www.brilliantlabs.ca")
+![ISS_GIF](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ISS%20with%20WiFi_BLE%20Click/ISS_GIF.gif?raw=true "For more info: www.brilliantlabs.ca")
 
-This tutorial will take you through the steps of how to have the b.Board notify you that the ISS (Insternational Space Station) is overhead.  You will learn how to setup an Adafruit MQTT trigger, how to setup an IFTTT applet, and how to connect your b.Board to these so that you can trigger a notification when the ISS is overheadd.
+This tutorial will take you through the steps of how to have the b.Board notify you that the ISS (International Space Station) is overhead.  You will learn how to setup an Adafruit MQTT trigger, how to setup an IFTTT applet, and how to connect your b.Board to these so that you can trigger a notification when the ISS is overheadd.
 
 # STEP 1
 **Setup your Adafruit.io MQTT** 
@@ -46,7 +44,7 @@ Copy down your "Active Key" as this is your AIO Key which will be needed in your
 # STEP 7
 **Set up IFTTT Applet**
 
-It is now time to head over to IFTTT.com and create an account if you don't already have one. Once your account is setup you will need to clikc on "explore" found in the top right corner of your page.
+It is now time to head over to https://IFTTT.com and create an account if you don't already have one. Once your account is setup you will need to clikc on "explore" found in the top right corner of your page.
 ![ISS_IFTTTsignUP](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ISS%20with%20WiFi_BLE%20Click/ISS_IFTTT_SignUp.png?raw=true "Setup IFTTT Applet")
 
 # STEP 8
@@ -154,6 +152,25 @@ basic.forever(function () {
 })
 ```
 
+### The completed code should look like this:
+```blocks
+WiFi_BLE.WifiConnect("Enter your SSID here", "Enter your PW here", clickBoardID.one)
+let ISSMessage = 0
+WiFi_BLE.connectMQTT("Enter your Username", "Add your AIO Key", clickBoardID.one)
+WiFi_BLE.subscribeAdafruitMQTT("Example/BrilliantLabs/feeds/ISS", clickBoardID.one)
+basic.forever(function () {
+    WiFi_BLE.pingAdafruitMQTT(60, clickBoardID.one)
+    if (WiFi_BLE.isMQTTMessage(clickBoardID.one)) {
+        if (WiFi_BLE.getMQTTMessage(clickBoardID.one) == "1") {
+            basic.showString("ISS is above!")
+            pins.servoWritePin(AnalogPin.P0, 180)
+            basic.pause(2000)
+            pins.servoWritePin(AnalogPin.P0, 0)
+            basic.clearScreen()
+        }
+    }
+})
+```
 
 ## HAPPY MAKING. 
 Remember to tweet your progress @brilliant_labs and hashtag #makeSomethingBrilliant.

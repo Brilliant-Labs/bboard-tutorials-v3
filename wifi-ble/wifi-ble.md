@@ -1,6 +1,6 @@
 # INTRO TO THE WiFi_BLE Clickboard
 
-![Wifi BLE](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wife-ble/wifilogo.jpg?raw=true "Wifi BLE")
+![Wifi BLE](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifilogo.jpg?raw=true "Wifi BLE")
 
 ## Description
 
@@ -52,4 +52,4 @@ motor from around the world?
 The choice is yours!
 
 
-![Wifi-ble](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifi-clic-gif.gif?raw=true "Let's Keep things Connected")
+![Wifi-ble](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifi-click-gif.gif?raw=true "Let's Keep things Connected")
