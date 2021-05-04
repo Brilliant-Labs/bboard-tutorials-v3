@@ -1,6 +1,6 @@
 # INTRO TO THE LCD MINI Clickboard
 
-![NFC](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/lcd-mini/simplestLCD.jpg?raw=true "LCD MINI")
+![NFC](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/lcd-mini/simplestLCD.jpg?raw=true "LCD MINI")
 
 ## Description
 
@@ -14,7 +14,7 @@ neopixels to your project and
 have them light up to the noise
 level of your voice.
 
-![LCD MINI](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/lcd-mini/lcd-mini-click.jpg?raw=true "LCD MINI Click")
+![LCD MINI](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/lcd-mini/lcd-mini-click.jpg?raw=true "LCD MINI Click")
 
 ## Code Example
 
@@ -26,7 +26,7 @@ The screen currently has 2 lines to choose from and will display up to 16 charac
 
 Locate the LCD_MINI blocks
 
-![LCD Mini](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/lcd-mini/lcd-code-gif.gif?raw=true "LCD MINI Click")
+![LCD Mini](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/lcd-mini/lcd-code-gif.gif?raw=true "LCD MINI Click")
 
 The LCD MINI can help you display data and words to an LCD Screen. 
 
@@ -54,4 +54,4 @@ the tone of your Haiku based on
 an external factor. Brilliant!
 
 
-![Noise](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/lcd-mini/lcdgif.gif?raw=true "Let's Keep things noisy")
+![Noise](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/lcd-mini/lcdgif.gif?raw=true "Let's Keep things noisy")

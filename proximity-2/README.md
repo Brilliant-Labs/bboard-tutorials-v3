@@ -1,6 +1,6 @@
 # INTRO TO THE PROXIMITY 2 Clickboard
 
-![Proximity Detection](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/proximity-2/proximity2.jpg?raw=true "Proximity Detection")
+![Proximity Detection](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/proximity-2/proximity2.jpg?raw=true "Proximity Detection")
 
 ## Description
 
@@ -10,7 +10,7 @@ to allow you to integrate
 proximity awareness into your
 project.  You can use on or the other, or both!
 
-![Proximity-2 Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/proximity-2/proximity-2-click.jpg?raw=true "Proximity-2 Click")
+![Proximity-2 Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/proximity-2/proximity-2-click.jpg?raw=true "Proximity-2 Click")
 
 ## Code Example
 
@@ -40,4 +40,4 @@ volume, speed, or servo
 angles of your project.
 
 
-![Proximity 2](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/proximity-2/proximity2gif.gif?raw=true "Hands Off!")
+![Proximity 2](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/proximity-2/proximity2gif.gif?raw=true "Hands Off!")

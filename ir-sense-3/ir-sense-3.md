@@ -1,7 +1,7 @@
 # INTRO TO THE IR SENSE 3
 
 
-![Magic](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-distance/IRpic.png?raw=true "A magician's assistant")
+![Magic](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/ir-distance/IRpic.png?raw=true "A magician's assistant")
 
 ## Description
 
@@ -13,7 +13,7 @@ can be used to detect humans as
 they approach the area where the
 sensor is located.
 
-![IR SENSE 3 Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-sense-3/ir-sense-3-click.jpg?raw=true "IR SENSE 3 Click")
+![IR SENSE 3 Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/ir-sense-3/ir-sense-3-click.jpg?raw=true "IR SENSE 3 Click")
 
 ## Code Example
 
@@ -44,4 +44,4 @@ the room is empty. Pair this with the Record
 and Play click to play a noise when someone
 approaches for a good scare!
 
-![Magic](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-distance/magicianGif.gif?raw=true "A magician's assistant")
+![Magic](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/ir-distance/magicianGif.gif?raw=true "A magician's assistant")

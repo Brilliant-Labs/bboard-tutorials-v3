@@ -1,6 +1,6 @@
 # INTRO TO THE LINE FOLLOWER Clickboard
 
-![Line Follower](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/line-follower/linefollowing.jpeg?raw=true "Line Follower")
+![Line Follower](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/line-follower/linefollowing.jpeg?raw=true "Line Follower")
 
 ## Description
 
@@ -12,7 +12,7 @@ follower has an array of 5
 reflective sensors that sense the
 difference in surface contrast
 
-![Line Follower Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/line-follower/line-follower-click.jpg?raw=true "Line Follower Click")
+![Line Follower Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/line-follower/line-follower-click.jpg?raw=true "Line Follower Click")
 
 ## Code Example
 
@@ -53,4 +53,4 @@ roads and mazes for
 your robot to follow.
 
 
-![Line Following](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/line-follower/robot_moving.gif?raw=true "Let's Keep things centered")
+![Line Following](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/line-follower/robot_moving.gif?raw=true "Let's Keep things centered")

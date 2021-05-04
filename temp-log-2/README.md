@@ -1,6 +1,6 @@
 # INTRO TO THE TEMP LOG 2 Clickboard
 
-![Temp Log 2](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/temp-log-2/hotday.jpg?raw=true "Temp Log 2")
+![Temp Log 2](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/temp-log-2/hotday.jpg?raw=true "Temp Log 2")
 
 ## Description
 
@@ -13,7 +13,7 @@ to monitor and plot the
 temperature changes over time
 in your next project.
 
-![Temp Log 2 Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/temp-log-2/temp-log-2-click.jpg?raw=true "Temp Log 2 Click")
+![Temp Log 2 Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/temp-log-2/temp-log-2-click.jpg?raw=true "Temp Log 2 Click")
 
 ## Code Example
 
@@ -44,4 +44,4 @@ alert to you when your pet’s
 comfort level could be at risk.
 
 
-![Temp Log 2](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/temp-log-2/hotdaygif.gif?raw=true "Let's Keep things cool")
+![Temp Log 2](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/temp-log-2/hotdaygif.gif?raw=true "Let's Keep things cool")

@@ -1,6 +1,6 @@
 # INTRO TO THE KEYLOCK Clickboard
 
-![Keylock Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/keylock/keylock.jpg?raw=true "Keylock Click")
+![Keylock Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/keylock/keylock.jpg?raw=true "Keylock Click")
 
 ## Description
 
@@ -14,7 +14,7 @@ place your keylock anywhere you
 need. Also, this input sensor has
 3 key positions: 0-2.
 
-![Keylock Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/keylock/keylock-click.jpg?raw=true "Keylcok Click")
+![Keylock Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/keylock/keylock-click.jpg?raw=true "Keylcok Click")
 
 ## Code Example
 
@@ -24,7 +24,7 @@ The keylock has 3 positions available!
 
 Locate the || Keylock || blocks
 
-![Keylock Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/keylock/keylock-code-gif.gif?raw=true "Keylock Click")
+![Keylock Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/keylock/keylock-code-gif.gif?raw=true "Keylock Click")
 
 The LCD MINI can help you display data and words to an LCD Screen. 
 
@@ -52,4 +52,4 @@ your robot or even enter your
 mad scientist laboratory with this Keylock Click.
 
 
-![Keylock](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/keylock/keylock-gif.gif?raw=true "Let's Keep things locked")
+![Keylock](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/keylock/keylock-gif.gif?raw=true "Let's Keep things locked")

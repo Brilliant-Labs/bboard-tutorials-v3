@@ -1,6 +1,6 @@
 # INTRO TO THE Touchpad Clickboard
 
-![Touchpad](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/touchpad/capacitive-touch.jpg?raw=true "Touchpad")
+![Touchpad](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/touchpad/capacitive-touch.jpg?raw=true "Touchpad")
 
 ## Description
 
@@ -13,7 +13,7 @@ movements to Cartesian
 coordinates, as well as simple
 gestures such as swipe and click. 
 
-![Touchpad](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/touchpad/touchpad-click.jpg?raw=true "Touchpad Click")
+![Touchpad](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/touchpad/touchpad-click.jpg?raw=true "Touchpad Click")
 
 ## Code Example
 
@@ -21,7 +21,7 @@ This example has the Touchpad Click plugged into to MikroBus #1 on the b.Board.
 
 ## Locate Touchpad blocks
 
-![Touchpad](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/touchpad/touchpadgif.gif?raw=true "Touchpad Click")
+![Touchpad](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/touchpad/touchpadgif.gif?raw=true "Touchpad Click")
 
 Just add your Touchpad blocks and code some motors, screens, lights, or other outputs to react to the Touchpad Click's input!
 
@@ -62,4 +62,4 @@ click by moving your fingers
 across the pad.
 
 
-![Touchpad](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/touchpad/touchpad.gif?raw=true "Let's Keep things sneaky")
+![Touchpad](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/touchpad/touchpad.gif?raw=true "Let's Keep things sneaky")

@@ -1,6 +1,6 @@
 # INTRO TO THE NOISE Clickboard
 
-![Noise](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/noise/noise.png?raw=true "Noise")
+![Noise](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/noise/noise.png?raw=true "Noise")
 
 ## Description
 
@@ -14,7 +14,7 @@ neopixels to your project and
 have them light up to the noise
 level of your voice.
 
-![Noise](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/noise/noise-click.jpg?raw=true "Noise Click")
+![Noise](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/noise/noise-click.jpg?raw=true "Noise Click")
 
 ## Code Example
 
@@ -24,7 +24,7 @@ Just add your Touchpad blocks and code some motors, screens, lights, or other ou
 
 Locate the WiFi_BLE blocks
 
-![Noise](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/noise/noise-code-gif.gif?raw=true "Noise Click")
+![Noise](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/noise/noise-code-gif.gif?raw=true "Noise Click")
 
 The noise click will help you measure how much noise (db) is in the area. You can then use the noise level as an input to control actuators, and other outputs. 
 
@@ -51,4 +51,4 @@ you if you are nearing your threshold
 by flashing different colours.
 
 
-![Noise](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/noise/noise-gif.gif?raw=true "Let's Keep things noisy")
+![Noise](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/noise/noise-gif.gif?raw=true "Let's Keep things noisy")

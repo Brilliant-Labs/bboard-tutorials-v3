@@ -1,6 +1,6 @@
 # INTRO TO THE WiFi_BLE Clickboard
 
-![Wifi BLE](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifilogo.jpg?raw=true "Wifi BLE")
+![Wifi BLE](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/wifi-ble/wifilogo.jpg?raw=true "Wifi BLE")
 
 ## Description
 
@@ -13,7 +13,7 @@ communication protocols.
 With the WIFI BLE Click you can connect to a variety of online services including IFTTT, Adafruit.io, MQTT, and even secure Web Sockets!
 
 
-![WiFi_BLE](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifi-ble-click.jpg?raw=true "WiFi_BLE Click")
+![WiFi_BLE](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/wifi-ble/wifi-ble-click.jpg?raw=true "WiFi_BLE Click")
 
 ## Code Example
 
@@ -23,7 +23,7 @@ Just add your Touchpad blocks and code some motors, screens, lights, or other ou
 
 Locate the WiFi_BLE blocks
 
-![WiFi_BLE](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifi-ble-code-gif.gif?raw=true "WiFi_BLE Click")
+![WiFi_BLE](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/wifi-ble/wifi-ble-code-gif.gif?raw=true "WiFi_BLE Click")
 
 The WiFi BLE is the perfect click to connect your latest inventions to the internet or send data to a cloud service!
 
@@ -52,4 +52,4 @@ motor from around the world?
 The choice is yours!
 
 
-![Wifi-ble](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifi-click-gif.gif?raw=true "Let's Keep things Connected")
+![Wifi-ble](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/wifi-ble/wifi-click-gif.gif?raw=true "Let's Keep things Connected")

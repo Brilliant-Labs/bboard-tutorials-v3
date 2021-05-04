@@ -1,6 +1,6 @@
 # INTRO TO THE NFC Clickboard
 
-![NFC](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/nfc/nfc.jpg?raw=true "NFC")
+![NFC](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/nfc/nfc.jpg?raw=true "NFC")
 
 ## Description
 
@@ -14,7 +14,7 @@ neopixels to your project and
 have them light up to the noise
 level of your voice.
 
-![NFC](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/nfc/nfc-click.jpg?raw=true "NFC Click")
+![NFC](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/nfc/nfc-click.jpg?raw=true "NFC Click")
 
 ## Code Example
 
@@ -24,7 +24,7 @@ Just add your Touchpad blocks and code some motors, screens, lights, or other ou
 
 Locate the WiFi_BLE blocks
 
-![NFC](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/nfc/nfc-code-gif.gif?raw=true "NFC Click")
+![NFC](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/nfc/nfc-code-gif.gif?raw=true "NFC Click")
 
 The noise click will help you measure how much noise (db) is in the area. You can then use the noise level as an input to control actuators, and other outputs. 
 
@@ -50,4 +50,4 @@ you if you are nearing your threshold
 by flashing different colours.
 
 
-![Noise](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/nfc/nfc-gif.gif?raw=true "Let's Keep things noisy")
+![Noise](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/nfc/nfc-gif.gif?raw=true "Let's Keep things noisy")

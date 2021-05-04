@@ -1,6 +1,6 @@
 # INTRO TO THE NFC Clickboard
 
-![NFC](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/nfc/nfc.jpg?raw=true "NFC")
+![NFC](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/nfc/nfc.jpg?raw=true "NFC")
 
 ## Description
 
@@ -12,7 +12,7 @@ this board and then encourage
 users with a NFC reader on their
 mobile device to find and scan.
 
-![NFC](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/nfc/nfc-click.jpg?raw=true "NFC Click")
+![NFC](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/nfc/nfc-click.jpg?raw=true "NFC Click")
 
 ## Code Example
 
@@ -22,7 +22,7 @@ Just add your Touchpad blocks and code some motors, screens, lights, or other ou
 
 Locate the WiFi_BLE blocks
 
-![NFC](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/nfc/nfc-code-gif.gif?raw=true "NFC Click")
+![NFC](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/nfc/nfc-code-gif.gif?raw=true "NFC Click")
 
 The NFC click can help you broadcast URLs or much more!
 
@@ -48,4 +48,4 @@ and your information will be
 revealed.
 
 
-![Noise](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/nfc/nfc-gif.gif?raw=true "Let's Keep things noisy")
+![Noise](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/nfc/nfc-gif.gif?raw=true "Let's Keep things noisy")

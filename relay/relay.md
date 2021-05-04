@@ -1,6 +1,6 @@
 # INTRO TO THE RELAY Clickboard
 
-![Relay](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/relay/relay.png?raw=true "Relay")
+![Relay](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/relay/relay.png?raw=true "Relay")
 
 ## Description
 
@@ -16,7 +16,7 @@ VOLTAGES. THIS SHOULD BE
 USED UNDER STRICT ADULT
 SUPERVISION.
 
-![Relay](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/relay/relay-click.jpg?raw=true "Relay Click")
+![Relay](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/relay/relay-click.jpg?raw=true "Relay Click")
 
 ## Code Example
 
@@ -24,7 +24,7 @@ This example has the Relay Click plugged into to MikroBus #1 on the b.Board.
 
 Locate the || Relay || blocks
 
-![Relay](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/relay/relayclick-code-gif.gif?raw=true "Relay Click")
+![Relay](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/relay/relayclick-code-gif.gif?raw=true "Relay Click")
 
 
 ```blocks
@@ -51,4 +51,4 @@ control wherever you have
 internet access.
 
 
-![Relay](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/relay/relayclick-gif.gif?raw=true "Let's Keep things nifty")
+![Relay](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/relay/relayclick-gif.gif?raw=true "Let's Keep things nifty")

@@ -1,6 +1,6 @@
 # IR Distance Click
 
-![Magic](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-distance/IRpic.png?raw=true "A magician's assistant")
+![Magic](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/ir-distance/IRpic.png?raw=true "A magician's assistant")
 
 ## Description
 
@@ -10,7 +10,7 @@ distance sensor is great for
 measuring objects or obstacles at 
 distances between 10 and 150 cm!
 
-![IR Distance Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-distance/ir-distance-click.jpg?raw=true "IR DISTANCE Click")
+![IR Distance Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/ir-distance/ir-distance-click.jpg?raw=true "IR DISTANCE Click")
 
 ## Code Example
 
@@ -36,5 +36,5 @@ THE MAGICIAN'S ASSISTANT
 
 This sensor detects the presence of any object that is between 10 and 150 cm from its sensor. Create your own illusions by activating and deactivating a magic trick of your own design. Pull an object out of a hat and place it near the sensor to act as your own magical assistant! 
 
-![Magic](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-distance/magicianGif.gif?raw=true "A magician's assistant")
+![Magic](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/ir-distance/magicianGif.gif?raw=true "A magician's assistant")
 

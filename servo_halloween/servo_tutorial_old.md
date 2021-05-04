@@ -33,7 +33,7 @@ There are two values you require:
  2. The angle at which you wish your servo to stop. 
 
 **1.** You can identify the first value by looking at the b.Board and identifying the pin number. For this example I am going to use ``||pins:P2||`` to connect the servo. 
-![Test](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/servo_pin_number.jpeg?raw=true_)
+![Test](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/servo_pin_number.jpeg?raw=true_)
 
 **2.** For the angle, it is best that you start with 180 degrees so that you can see how farthest point possible for your servo to turn. 
 
@@ -48,7 +48,7 @@ pins.servoWritePin(AnalogPin.P2, 180)
 
 Hook up your servo, ``||download:download||`` and try your code! The b.Board has some symbols to help you to identify the location for each wire. Most micro servos, will have a brown, red and orange wire. Remember the rhyme **brown and ground** to easily orient your servo hookup. 
 
-![enter image description here](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/IMG_4239.jpg?raw=true)
+![enter image description here](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/IMG_4239.jpg?raw=true)
 
 ### Some Tips
 

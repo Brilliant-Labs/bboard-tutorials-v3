@@ -1,7 +1,7 @@
 # INTRO TO THE IR THERMO 3 Clickboard
 
 
-![IR Thermo](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-thermo-3/howIRthermoWorks.png?raw=true "IR Thermo")
+![IR Thermo](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/ir-thermo-3/howIRthermoWorks.png?raw=true "IR Thermo")
 
 ## Description
 
@@ -10,7 +10,7 @@ sensor, once pointed at the object
 in question, will provide a
 contactless temperature reading which can be displayed, evaluated, or sent to the cloud for further analysis. 
 
-![IR THERMO 3 Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-thermo-3/ir-thermo-3-click.jpg?raw=true "IR THERMO 3 Click")
+![IR THERMO 3 Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/ir-thermo-3/ir-thermo-3-click.jpg?raw=true "IR THERMO 3 Click")
 
 ## Code Example
 
@@ -42,4 +42,4 @@ measuring. It can also be used to
 safely measure anything in hard to
 reach places or hot things from a safe place!
 
-![Boiling Pot](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-thermo-3/boilingGIF.gif?raw=true "Too hot? Stay safe!")
+![Boiling Pot](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/ir-thermo-3/boilingGIF.gif?raw=true "Too hot? Stay safe!")

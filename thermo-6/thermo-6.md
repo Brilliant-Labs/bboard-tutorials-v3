@@ -1,6 +1,6 @@
 # INTRO TO THE THERMO 6 Clickboard
 
-![Thermo 6 Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/thermo-6/ice.jpg?raw=true "Thermo 6 click")
+![Thermo 6 Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/thermo-6/ice.jpg?raw=true "Thermo 6 click")
 
 ## Description
 
@@ -12,7 +12,7 @@ temperature sensor would be
 great should your project require
 descretion.
 
-![Thermo 6 Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/thermo-6/thermo-6-click.jpg?raw=true "Thermo 6 Click")
+![Thermo 6 Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/thermo-6/thermo-6-click.jpg?raw=true "Thermo 6 Click")
 
 ## Code Example
 
@@ -46,4 +46,4 @@ cold, and remind you to grab that
 jacket before you leave.
 
 
-![Cold Gif](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/thermo-6/cold.gif?raw=true "It's Cold!")
+![Cold Gif](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/thermo-6/cold.gif?raw=true "It's Cold!")

@@ -1,6 +1,6 @@
 # INTRO TO THE REED SENSOR Clickboard
 
-![REED SENSOR](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/reed-sensor/reedswitch.png?raw=true "Reed Sensor")
+![REED SENSOR](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/reed-sensor/reedswitch.png?raw=true "Reed Sensor")
 
 ## Description
 
@@ -8,7 +8,7 @@ Magnets always seem like magic.
 Become a magician with a Reed
 Sensor. 
 
-![Reed Sensor Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/reed-sensor/reedgif1.gif?raw=true "Reed Sensor Click")
+![Reed Sensor Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/reed-sensor/reedgif1.gif?raw=true "Reed Sensor Click")
 
 This switch has magnetic
 contacts that remain separated
@@ -16,7 +16,7 @@ until a magnet is applied. With a
 little logic, the reverse could also
 be true.
 
-![Reed Sensor Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/reed-sensor/reed-click.jpg?raw=true "Reed Sensor Click")
+![Reed Sensor Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/reed-sensor/reed-click.jpg?raw=true "Reed Sensor Click")
 
 ## Code Example
 
@@ -47,4 +47,4 @@ your treasure chest with
 a magnet.
 
 
-![Reed Sensor](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/reed-sensor/reedswitchgif.gif?raw=true "Let's Keep Things Safe")
+![Reed Sensor](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/reed-sensor/reedswitchgif.gif?raw=true "Let's Keep Things Safe")
