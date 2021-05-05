@@ -20,11 +20,10 @@ sensor is located.
 This example has the IR SENSE 3 Click plugged into to MikroBus #1 on the b.Board
 
 ```blocks
-
+let IR_Sense_32 = IR_Sense_3.createIR_Sense(BoardID.zero, ClickID.A)
 basic.forever(function () {
-    if (IR_Sense_3.isHumanDetected(clickBoardID.one)) {
+    if (IR_Sense_32.isHumanDetected()) {
         basic.showIcon(IconNames.StickFigure)
-        music.beginMelody(music.builtInMelody(Melodies.Entertainer), MelodyOptions.Once)
     } else {
         basic.showIcon(IconNames.No)
     }

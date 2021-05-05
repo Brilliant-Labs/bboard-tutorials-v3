@@ -29,11 +29,13 @@ Locate the || Relay || blocks
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    Relay.relayOn(Relay.relay.Relay1, clickBoardID.one)
+    Relay2.relayOnOff(Relay.onOff.On, Relay.relay.Relay1)
 })
 input.onButtonPressed(Button.B, function () {
-    Relay.relayOff(Relay.relay.Relay1, clickBoardID.one)
+    Relay2.relayOnOff(Relay.onOff.Off, Relay.relay.Relay1)
 })
+let Relay2: Relay.Relay = null
+Relay2 = Relay.createRelay(BoardID.zero, ClickID.A)
 ```
 
 ## Project Idea

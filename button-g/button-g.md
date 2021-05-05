@@ -27,8 +27,8 @@ When prototyping your code, it is great to start off with something that you kno
 As brilliant as you belive your micro:bit and b.Board are, regrettably they are not. Should you just hook your neopixles to the Gator Grabbers and apply power to your b.Board and expect the neopixels to illuminate, you will be sadly mistaken. You must tell your micro:bit and b.Board where those neopiels are, how many are attached in sequence and their type. 
 To do this, follow these steps: 
 
- 1. Under ``||Advanced||`` click the ``||Neopixel||`` category to reveal all your neopixel options. The following photo depicts an example strip setup. 
- ![enter image description here](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/Neopixel+Button_G/neopixel_start_basic.png?raw=true)
+ 1. Click the ``||Neopixel||`` category to reveal all your neopixel options. The following photo depicts an example strip setup. 
+ ![enter image description here](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/button-g/neopixel_start_basic.png?raw=true)
 
  2. Choose a simple light pattern to send to your neopixel strip to discover if you have indeed initialized your strip correctly. Your sample code may resemble these blocks: 
 
@@ -51,20 +51,21 @@ strip.showColor(neopixel.colors(NeoPixelColors.Blue))
 ## STEP 3
 **Click your way to a Button G** Ok, we know that pushing ``||Button A||`` on the micro:bit is pretty neat, but you know what is ~~neater~~ better? Using the following ClickBoardTM. Meet the glorious Button G. 
 
-![alt text](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/Neopixel+Button_G/glowy.gif?raw=true "For more info: www.brilliantlabs.ca")
+![alt text](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/button-g/glowy.gif?raw=true "For more info: www.brilliantlabs.ca")
 
 This button can be setup similar to the code you created for the ``||Button A||``. You may want to consider how far you would like your button to be away from your b.Board. For this you will want to use either our (soon to be released) expansion board, or a [Shuttle Click](https://www.mikroe.com/shuttle-click). 
 
 Use the following code to get your started: 
 ```blocks
+let ButtonG2 = ButtonG.createButtonG(BoardID.zero, ClickID.A)
 let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
 strip.setBrightness(100)
 basic.forever(function () {
-if (Button_G.getSwitch(clickBoardID.one) == 1) {
-strip.showColor(neopixel.colors(NeoPixelColors.Purple))
-} else {
-strip.showColor(neopixel.colors(NeoPixelColors.Blue))
-}
+    if (ButtonG2.getSwitch() == 1) {
+        strip.showColor(neopixel.colors(NeoPixelColors.Purple))
+    } else {
+        strip.showColor(neopixel.colors(NeoPixelColors.Blue))
+    }
 })
 ```
 ## Some reminders when using the blocks for Button G: 
@@ -74,7 +75,7 @@ strip.showColor(neopixel.colors(NeoPixelColors.Blue))
  3. Remember to look at the ClickBoard position you have used on your b.Board. 
  4. Try using the glowing commands to make your install extra glowy. 
 
-![alt text](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/Neopixel+Button_G/button_g_click.png?raw=true "For more info: www.brilliantlabs.ca")
+![alt text](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/button-g/button_g_click.png?raw=true "For more info: www.brilliantlabs.ca")
 
 ## HAPPY MAKING. 
 Remember to tweet your progress @brilliant_labs and hashtag #makeSomethingBrilliant.

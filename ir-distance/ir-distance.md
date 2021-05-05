@@ -17,11 +17,9 @@ distances between 10 and 150 cm!
 This example has the IR Distance Click plugged into to MikroBus #1 on the b.Board
 
 ```blocks
-
-let Distance = 0
+let IR_Distance2 = IR_Distance.createIR_Distance(BoardID.zero, ClickID.A)
 basic.forever(function () {
-    Distance = IR_Distance.getDistance(clickBoardID.one)
-    if (Distance < 30) {
+    if (IR_Distance2.getDistance() < 30) {
         basic.showString("Near")
     } else {
         basic.showString("Far")
