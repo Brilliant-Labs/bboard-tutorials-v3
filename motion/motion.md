@@ -23,8 +23,10 @@ This example has the Motion Click plugged into to MikroBus #1 on the b.Board.
 We will place the motion click value in an "IF Statement" which we've nested inside a "Forever Loop".  
 
 ```blocks
+let Motion2 = Motion.createMotion(BoardID.zero, ClickID.A)
+
 basic.forever(function () {
-    if (Motion.isDetected(clickBoardID.one)) {
+    if (Motion2.isDetected()) {
         basic.showIcon(IconNames.Yes)
         basic.showString("We have motion!")
     } else {

@@ -25,13 +25,15 @@ This example has the Reed Sensor Click plugged into to MikroBus #1 on the b.Boar
 We will place the Reed Sensor Click's value in an "IF / ELSE Statement" which we've nested inside a "Forever Loop". If the reed sensor picks up magnetism and is activated then we will evaluate that input then activate an output. This output could be lights, sounds, motors, servos, on even the micro:bit's onboard LEDs.   
 
 ```blocks
+let Reed2 = Reed.createReed(BoardID.zero, ClickID.A)
 basic.forever(function () {
-    if (Reed.isActivated(clickBoardID.one)) {
+    if (Reed2.getSwitch()) {
         basic.showIcon(IconNames.Yes)
     } else {
         basic.showIcon(IconNames.No)
     }
 })
+
 ```
 
 ## Project Idea

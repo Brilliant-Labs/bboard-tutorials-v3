@@ -20,18 +20,14 @@ This example has the Touchpad Click plugged into to MikroBus #1 on the b.Board.
 
 Just add your Touchpad blocks and code some motors, screens, lights, or other outputs to react to the Touchpad Click's input!
 
-Locate the WiFi_BLE blocks
-
-![NFC](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/nfc/nfc-code-gif.gif?raw=true "NFC Click")
-
-The NFC click can help you broadcast URLs or much more!
-
-Select || NFC || category blocks 
+Locate the NFC block
 
 ```blocks
+let NFC_Tag = NFC_Tag_2.createNFC_Tag(BoardID.zero, ClickID.A)
 basic.forever(function () {
-    NFC_Tag_2.setURI("http://www.brilliantlabs.ca", clickBoardID.one)
+   NFC_Tag.setURI("http://www.brilliantlabs.ca")
 })
+
 ```
 
 ## Project Idea

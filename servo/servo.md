@@ -27,15 +27,19 @@ This example has the Servo Click plugged into to MikroBus #1 on the b.Board.
 You can place the Servo Click's blocks to move your servo motors any way you like! 
 
 ```blocks
+
+let Servo2 = Servo.createServo(BoardID.zero, ClickID.A)
+
 input.onButtonPressed(Button.A, function () {
-    Servo.setServoAngle(1, 120, clickBoardID.one)
-    Servo.setServoAngle(8, 90, clickBoardID.one)
-    Servo.setServoAngle(16, 180, clickBoardID.one)
+    Servo2.setServoAngle(1, 120)
+    Servo2.setServoAngle(8, 90)
+    Servo2.setServoAngle(16, 180)
     basic.pause(1000)
-    Servo.setServoAngle(1, 40, clickBoardID.one)
-    Servo.setServoAngle(8, 120, clickBoardID.one)
-    Servo.setServoAngle(16, 0, clickBoardID.one)
+    Servo2.setServoAngle(1, 40)
+    Servo2.setServoAngle(8, 120)
+    Servo2.setServoAngle(16, 0)
 })
+
 ```
 
 ## Project Idea

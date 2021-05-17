@@ -19,8 +19,9 @@ This example has the Proximity 2 Click plugged into to MikroBus #1 on the b.Boar
 We will place the proximity 2 click's value in an "IF / ELSE Statement" which we've nested inside a "Forever Loop".  We will compare this value then scroll a message on the Micro:Bit's onboard LEDs depending on if the proximity value is lesser than 10cm.
 
 ```blocks
+let Proximity_22 = Proximity_2.createProximity_2(BoardID.zero, ClickID.A)
 basic.forever(function () {
-    if (Proximity_2.Proximity2_Read_Proximity(clickBoardID.one) < 10) {
+    if (Proximity_22.proximity_2_Read_Proximity() < 10) {
         basic.showString("This object is close!")
     } else {
         basic.showString("Not so close")

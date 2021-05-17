@@ -18,20 +18,17 @@ Just sent your text, strings, and input values to your LCD MINI with the the LCD
 
 The screen currently has 2 lines to choose from and will display up to 16 characters each. 
 
-Locate the LCD_MINI blocks
-
-![LCD Mini](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/lcd-mini/lcd-mini-code-gif.gif?raw=true "LCD MINI Click")
-
 The LCD MINI can help you display data and words to an LCD Screen. 
 
-Select ||LCD MINI|| category blocks 
+Locate the LCD_MINI blocks
 
 ```blocks
+let LCDSettings = LCD_Mini.createLCDSettings(BoardID.zero, ClickID.A)
 basic.forever(function () {
-    LCD_Mini.lcd_writeString("Hello", lineNumber.one, clickBoardID.one)
-    LCD_Mini.lcd_writeString("World", lineNumber.two, clickBoardID.one)
+    LCDSettings.lcd_writeString("Hello", LCD_Mini.lineNumber.one)
+    LCDSettings.lcd_writeString("World", LCD_Mini.lineNumber.two)
     basic.pause(1000)
-    LCD_Mini.lcd_clearDisplay(clickBoardID.one)
+    LCDSettings.lcd_clearDisplay()
 })
 ```
 

@@ -17,14 +17,16 @@ contactless temperature reading which can be displayed, evaluated, or sent to th
 This example has the IR THERMO 3 Click plugged into to MikroBus #1 on the b.Board and if the temperature is higher than 20 degrees Celcius we are activating a fan with the DC motor click on MidroBus #2 onk the b.Board.  You can substitue the DC Motor click with anything you like including displaying something on the Micro:Bit's LEDs, turning on Neopixels, servos, etc... 
 
 ```blocks
+let IrThermo_32 = IrThermo_3.createIrThermo(BoardID.zero, ClickID.A)
 basic.forever(function () {
-    if (IrThermo_3.getObjectTemp(clickBoardID.one) < 20) {
+    if (IrThermo_32.getObjectTemp(IrThermo_3.TempUnits.C) < 20) {
         basic.showString("It's cold!")
     } else {
         basic.showString("It's warm! Turn on the fan :)")
-        DC_Motor3.motorSpeedDirection(100, DC_Motor3.MotorDirection.Forward, clickBoardID.two)
+        bBoard_Motor.motorLeftTimed(100, 5000)
     }
 })
+
 
 ```
 

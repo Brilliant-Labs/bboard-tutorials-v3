@@ -22,21 +22,16 @@ This example has the Keylock Click plugged into to MikroBus #1 on the b.Board.
 
 The keylock has 3 positions available!
 
-Locate the || Keylock || blocks
-
-![Keylock Click](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/keylock/keylock-code-gif.gif?raw=true "Keylock Click")
-
-The LCD MINI can help you display data and words to an LCD Screen. 
-
-Select ||LCD MINI|| category blocks 
+Locate the Keylock in Clickboards Buttons & switches group
 
 ```blocks
+let Keylock2 = Keylock.createkeylock(BoardID.zero, ClickID.A)
 basic.forever(function () {
-    if (Keylock.getLockPosition(clickBoardID.one) == 0) {
+    if (Keylock2.getLockPosition() == 0) {
         basic.showIcon(IconNames.No)
-    } else if (Keylock.getLockPosition(clickBoardID.one) == 1) {
+    } else if (Keylock2.getLockPosition() == 1) {
         basic.showIcon(IconNames.Yes)
-    } else if (Keylock.getLockPosition(clickBoardID.one) == 2) {
+    } else if (Keylock2.getLockPosition() == 2) {
         basic.showIcon(IconNames.Heart)
     }
 })
