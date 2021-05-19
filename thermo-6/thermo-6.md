@@ -18,7 +18,7 @@ descretion.
 
 This example has the Thermo 6 Click plugged into to MikroBus #1 on the b.Board. 
 
-We will place the motion click value in an "IF /ELSE Statement" which we've nested inside a "Forever Loop".  We compare the value and if it is under 5 degrees Celcius then we trigger the "Brrrr!" message and remind ourselves to grab a jacket before going outside.
+We will place the Thermo 6 click value in an "IF /ELSE Statement" which we've nested inside a "Forever Loop".  We compare the value and if it is under 5 degrees Celcius then we trigger the "Brrrr!" message and remind ourselves to grab a jacket before going outside.
 
 ```blocks
 let Thermo_62 = Thermo_6.createThermo_6(BoardID.zero, ClickID.A)

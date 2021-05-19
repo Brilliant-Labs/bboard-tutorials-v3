@@ -39,8 +39,7 @@ away. Use this click to activate your design
 or set an alarm. This is great for projects
 that draw a lot of power and can be activated
 when being observed and de-activated when
-the room is empty. Pair this with the Record
-and Play click to play a noise when someone
+the room is empty. Play a noise when someone
 approaches for a good scare!
 
 ![Magic](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/ir-distance/magicianGif.gif?raw=true "A magician's assistant")

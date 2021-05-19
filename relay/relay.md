@@ -22,9 +22,7 @@ SUPERVISION.
 
 This example has the Relay Click plugged into to MikroBus #1 on the b.Board.
 
-Locate the || Relay || blocks
-
-![Relay](https://github.com/Brilliant-Labs/bboard-tutorials-v3/blob/master/relay/relayclick-code-gif.gif?raw=true "Relay Click")
+Locate the ``|| Relay ||`` blocks
 
 
 ```blocks
